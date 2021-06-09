@@ -1,0 +1,138 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/* .container{
+    background: linear-gradient(90deg, #667db6,#0082c8,#0082c8,#667db6);
+    width: 100vw;
+    height: 100vh;
+} */
+nav{
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5em 0em;
+    font-size: 30px;
+
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: right;
+    
+    
+}
+nav ul li:hover{
+    border-bottom: 1px solid black;
+}
+.nav-item{
+    list-style: none;
+    /* margin:0em 1.3em; */
+    font-size: 1.7vw;
+    padding: 6px 0px;
+    /* color: black;   */
+    
+}
+/* li:hover{
+    border-bottom:solid 1px black;
+} */
+#banner_image{
+    /* padding-top: 75px; */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    height: 100vh;
+    background-image:url(imgs/cv.jpg);
+    background-color: rgb(51, 51, 51);
+    background-blend-mode: overlay;
+    background-size: cover;
+    
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50% , -50%);
+    color: white;
+    text-align: left;
+    
+}
+.cont{
+    padding-top: 5%;
+    color: rgba(255, 217, 0, 0.815);
+}
+p{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 0 1rem 0;
+}
+#pc{
+    display: block;
+}
+.crd{
+    border-radius: 15px;
+    margin: 3px;
+    display: flex;
+}
+#card1{
+    display: flex;
+}
+/* h1{
+    font-size: 50px;
+    
+} */
+ .footerlinks li a:hover{
+     border-bottom:1px solid black !important;
+ }
+ .nominate{
+     background-color: #EA4B5E;
+     padding: 5% 5% 0% 5%;
+ }
+ #img{
+     background: url(imgs/cv.jpg);
+     padding:5% 0 10% 0 !important;
+     width: 100%;
+     text-align: center;
+     color: #f8f8f8;
+     /* height: 100vh; */
+     background-color: rgb(51, 51, 51);
+     background-blend-mode: overlay;
+     background-size: cover;
+ }
+ #h4{
+     color: white;
+     font-weight: bold;
+ }
+ .rc{
+     display: flex;
+     margin-right: -15%;
+     margin-left: -15%;
+     flex-wrap: wrap;
+ }
+ #form {
+     background: transparent !important;
+     border-bottom: 1px solid grey;
+     width: 100% ;
+     color: white;
+     font-size: 22px;
+     border: 0;
+     outline: 0;
+     padding-top: 10%;
+     padding-bottom: 10%;
+     /* display: block; */
+
+ }
+ 
+ /* #imgg{
+     display: flex !important;
+ } */
